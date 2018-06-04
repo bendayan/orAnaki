@@ -1,0 +1,51 @@
+body
+{
+  background-image: url(Thai-Food-Wallpaper.jpg);
+
+  background-attachment: fixed;
+}
+#title{
+background-color: rgb(135,206,235);
+font-size: 50px;
+
+border-radius: 10px;
+}
+.webTxt{
+background-color: rgb(135,206,235);
+font-size: 30px;
+border-radius: 10px;
+padding-left: 100px;
+padding-right: 100px;
+}
+.NavImgClass{
+  width: 600px;
+  height: 300px;
+  margin-top: 100px;
+  border-style: dashed;
+  margin-left: 50px;
+  border-color: 	#DEB887;
+}
+
+#dintanceTop{
+
+  margin-top: 100px;
+}
+#dintanceLeft{
+
+  margin-left: 50px;
+}
+.textAreaStyle{
+  background-color:	#FA8072;
+  color:  rgb(255,215,0);
+  font-size: 20px;
+  border-radius: 10px;
+}
+#sendButtonStyle{
+
+    background-color:	#FA8072;
+      color:  rgb(255,215,0);
+}
+.addressStyle{
+  background-color: rgb(189,183,107);
+  font-size:20px;
+}
