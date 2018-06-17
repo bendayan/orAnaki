@@ -1,0 +1,43 @@
+
+table{
+  border-style: solid;
+  width:300px;
+  height:300px;
+  transform: rotate(40deg);
+  margin-top: 10%;
+}
+td{
+  height: 30px;
+  width: 30px;
+}
+tr{
+  height: 120px;
+  width: 120px;
+}
+#t1:hover{
+  background-color:  red;
+}
+#t2:hover{
+  background-color:  yellow;
+}
+#t3:hover{
+  background-color: black;
+}
+#t4:hover{
+background-color: pink;
+
+}#t5:hover{
+  background-color: green;
+}
+#t6:hover{
+  background-color: blue;
+}
+#t7:hover{
+  background-color: Purple;
+}
+#t8:hover{
+  background-color: grey;
+}
+#t9:hover{
+  background-color: teal;
+}
