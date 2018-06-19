@@ -1,0 +1,27 @@
+#fillImg{
+width: 200px;
+height: 200px;
+object-fit: contain;
+filter:blur(1px);
+transition-property: width;
+transition-property: height;
+transition-timing-function: ease;
+transition-duration: 2s;
+animation-name: rightImg;
+animation-duration: 2s;
+animation-delay: 30s;
+position: relative;
+}
+
+#fillImg:hover{
+  height: 500px;
+  width: 500px;
+  border-radius: 9%;
+filter:blur(0px);
+
+}
+@keyframes rightImg {
+0%{left: 0px;top:0px;}
+50%{left: 80%;top: 0px;}
+100%{left: 0px;top:0px;}
+}
