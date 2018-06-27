@@ -358,7 +358,17 @@ left: 5%;
 
 }
 #bangkokIcon{
-top:40%;
+top:2%;
+left: 3%;
+
+}
+#phiPhiIcon{
+top:2%;
+left: 3%;
+
+}
+#changMaiIcon{
+top:2%;
 left: 3%;
 
 }
@@ -383,10 +393,28 @@ left: 3%;
 .bangkokInfo{
   position: absolute;
   height: 280px;
-  width: 250px;
+  width: 360px;
 
-  top:120%;
-  left:9%;
+    top:130%;
+  left:7%;
+    visibility: hidden;
+}
+.phiPhiInfo{
+  position: absolute;
+  height: 280px;
+  width: 360px;
+
+  top:130%;
+  left:36%;
+    visibility: hidden;
+}
+.changMaiInfo{
+  position: absolute;
+  height: 280px;
+  width: 360px;
+
+  top:130%;
+  left:65%;
     visibility: hidden;
 }
 #khoSamuiDiv:hover .samuiInfo{
@@ -394,6 +422,9 @@ left: 3%;
 }
 #khoSamuiDiv:hover .imgClass{
   filter: blur(10px);
+}
+#khoSamuiDiv:hover .hideCityName{
+  visibility: hidden;
 }
 #phuketDiv:hover .phuketInfo{
   visibility: visible;
@@ -407,7 +438,27 @@ left: 3%;
 #bkkDiv:hover .imgClass{
   filter: blur(10px);
 }
-
+#bkkDiv:hover .hideCityName{
+  visibility: hidden;
+}
+#phi-phiDiv:hover .phiPhiInfo{
+  visibility: visible;
+}
+#phi-phiDiv:hover .imgClass{
+  filter: blur(10px);
+}
+#phi-phiDiv:hover .hideCityName{
+  visibility: hidden;
+}
+#changMaiDiv:hover .changMaiInfo{
+  visibility: visible;
+}
+#changMaiDiv:hover .imgClass{
+  filter: blur(10px);
+}
+#changMaiDiv:hover .hideCityName{
+  visibility: hidden;
+}
 .cityInfo{
   column-fill: balance;
   column-count: 3;
