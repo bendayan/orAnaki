@@ -1,0 +1,22 @@
+#triangleStyle{
+    fill:greenyellow;
+    stroke: blue;
+    stroke-width: 2px;
+
+}
+#circleStyle{
+    fill:blue;
+    stroke: yellow;
+    stroke-width: 2px;
+}
+#squareStyle{
+    fill:purple;
+    stroke:hotpink;
+    stroke-width: 5px;
+}
+lable{
+    background-color: blue;
+    color: white;
+    font-family: Arial;
+    font-size: 20px;
+}
