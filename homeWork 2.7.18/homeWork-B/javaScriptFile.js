@@ -15,3 +15,8 @@ alert("3")
 else 
 alert("4")
 }
+
+// dont forget to add nots to your code!!!
+//Baside that
+//Excellent
+//continue practice! its very importent!
